@@ -1,0 +1,21 @@
+{
+  "name": "aeh-avanza",
+  "version": "1.0.0",
+  "description": "Avanza help api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Alf Ehrlund",
+  "license": "ISC",
+  "dependencies": {
+    "cryptr": "^4.0.2",
+    "password-prompt": "^1.1.2",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "credentials": "github:AEhrlund/aeh-credentials",
+    "eslint": "^6.1.0",
+    "expect": "^24.8.0"
+  }
+}
