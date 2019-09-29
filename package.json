@@ -14,8 +14,8 @@
     "speakeasy": "^2.0.0"
   },
   "devDependencies": {
-    "credentials": "github:AEhrlund/aeh-credentials",
-    "eslint": "^6.1.0",
-    "expect": "^24.8.0"
+    "aeh-credentials": "github:AEhrlund/aeh-credentials",
+    "eslint": "^6.5.0",
+    "expect": "^24.9.0"
   }
 }

@@ -2,7 +2,7 @@
 const fs = require('fs')
 const expect = require('expect')
 const AEHAvanza = require('../index')
-const credentials = require('credentials')
+const credentials = require('aeh-credentials')
 
 // process.on('unhandledRejection', function (err) {
 //     console.log(err)
