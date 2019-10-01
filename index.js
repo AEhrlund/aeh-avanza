@@ -57,7 +57,7 @@ class AEHAvanza {
         const path = INSTRUMENT_PATH
             .replace('{0}', instrumentType)
             .replace('{1}', instrumentId)
-        return request({
+        const resp = await request({
             method: 'GET',
             path: path,
             data: {},
@@ -66,6 +66,7 @@ class AEHAvanza {
                 'X-SecurityToken': this.securityToken
             }
         })
+        return resp.body
     }
 }
 
