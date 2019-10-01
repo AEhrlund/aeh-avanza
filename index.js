@@ -49,6 +49,10 @@ class AEHAvanza {
         })
     }
 
+    async getBond(instrumentId) {
+        return this.getInstrument(BOND, instrumentId)
+    }
+
     async getInstrument(instrumentType, instrumentId) {
         const path = INSTRUMENT_PATH
             .replace('{0}', instrumentType)
