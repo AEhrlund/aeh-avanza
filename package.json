@@ -10,12 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "cryptr": "^4.0.2",
-    "password-prompt": "^1.1.2",
+    "password-prompt": "^1.1.3",
     "speakeasy": "^2.0.0"
   },
   "devDependencies": {
     "aeh-credentials": "github:AEhrlund/aeh-credentials",
-    "eslint": "^6.5.0",
+    "eslint": "^9.15.0",
     "expect": "^29.7.0"
   }
 }
